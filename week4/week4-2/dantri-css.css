@@ -1,0 +1,29 @@
+div.div1{
+    width: 100%;
+    align-items: center;
+}
+
+a.title{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+
+p,a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+body{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+div.khung{
+    background-color: rgb(235, 228, 186);
+    font-size: 20px;
+}
+
+

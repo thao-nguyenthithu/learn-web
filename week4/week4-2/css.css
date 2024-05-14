@@ -1,0 +1,28 @@
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: burlywood;
+    font-size: 20px;
+    text-align: center;
+    /* gachchan */
+    text-decoration: underline;
+    /* đổ bóng */
+    text-shadow: 2px 2px blue;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    /* không gạch chân */
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    /* di chuyển chuột đến sẽ đổ màu xanh */
+    overflow: hidden;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    /* hiển thị đối tượng trong 1 khung hình */
+    
+}
