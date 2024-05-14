@@ -1,0 +1,46 @@
+.tieude{
+    border-bottom: 7px solid #CB544B  ;
+    /* background: white;
+    display: inline-block;
+     */
+
+}
+
+.tieude h3{
+    background: white;
+    display: inline-block;
+    font-size: 18px ;
+    font-weight: bold;
+    margin: 16px 16px;
+    position: relative;
+    top: 30px; 
+    left: 37px;
+}
+
+.tin{
+    width: 180px;
+    height: 155px;
+    margin: 14px 14px;
+    float: left; 
+    /* dàn ngang */
+}
+
+.tin img{
+    width: 185px;
+    height: 130px;
+    margin-bottom: 15px;
+}
+
+.tin a{
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4D4D4D;
+}
+
+.khoitin{
+    width: 1020px;
+}
+
+
