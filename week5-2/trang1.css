@@ -1,0 +1,72 @@
+
+.tinleft a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.tinleft img{
+    width: 234px;
+    height: 156px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.tinleft{
+    width: 234px;
+    height: 325px;
+}
+
+body{
+    /* margin: 30px 30px; */
+    display: flex;
+}
+
+.tincenter image{
+    width: 516px;
+    height: 344px;
+    margin: 10px 10px;
+}
+
+.tincenter a{
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.tincenter p{
+    font-size: 14px;
+    text-decoration: none;
+    color: #828080;
+}
+
+.center{
+    width: 526px;
+    height: 354px;
+}
+
+.right{
+    width: 310px;
+    width: 90px;
+    
+}
+
+.tinright{
+    width: 140px;
+    height: 80px;
+    float: left;
+}
+
+.tinright img{
+    width: 120px;
+    height: 80px ;
+}
+
+.tinright p{
+    font-size: 14px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+

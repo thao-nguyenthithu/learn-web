@@ -1,0 +1,73 @@
+.khoitindantri{
+    width: 770px;
+    display: flex;
+}
+.left{
+    width: 160px;
+    height: 160px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+.left img{
+    width: 160px;
+    height: 105px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.left a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}
+.left a:hover{
+    color: blue;
+}
+.center{
+    width: 325px;
+    height: 340px;
+    margin: 10px 15px;
+
+}
+.center img{
+    width: 325px;
+    height: 215px;
+    margin-bottom: 10px;
+
+}
+.center a{
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+}
+.center a:hover{
+    color: blue;
+}
+.center p{
+    font-size: 10px;
+}
+.right{
+    width: 285px;
+    height: 360px;
+    margin: 10px 15px;
+}
+.right_1 img{
+    width: 75px;
+    height: 60px;
+    margin-bottom: 15px;
+    float: right;
+}
+.right_1 a{
+    width:195px;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000;
+    float: left;
+}
+.right a:hover{
+    color:blue;
+}
