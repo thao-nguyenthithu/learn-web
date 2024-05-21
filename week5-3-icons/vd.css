@@ -1,0 +1,36 @@
+@font-face {
+    font-family: fontchu01;
+    src: url(VNI-Thuphap3.ttf);
+}
+
+h1{
+    font-family: fontchu01;
+}
+
+h2{
+    font-family: "Danfo";
+}
+
+i{
+    color: blue;
+    font-size: 200%;
+    transition: 2s;
+}
+
+p{
+    color: coral;
+}
+
+/* khi di chuyển con trỏ đến thẻ i */
+i:hover{
+    color: rebeccapurple;
+    
+    /* di chuyển */
+    padding-left: 400px;
+
+    /* tốc độ chuyển động*/
+    transition: 2s;
+
+    /* độ mờ đối tượng */
+    opacity: 0;
+}

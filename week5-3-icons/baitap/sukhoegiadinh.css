@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+}
+.left {
+    width: 5%;
+    text-align: right; /* Căn chỉnh nội dung văn bản về bên phải */
+    margin-top: 25px;
+    margin-right: 5px;
+}
+.left i {
+    font-size: 16px; 
+}
+
+.center {
+    display: flex;
+    width: 80%;
+
+}
+.center-top{
+    display: flex;
+    border-left: 20px #ff8040;
+}
+.center-top h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    
+}
+.center-top a {
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.xahoi {
+    font-size: 20px ;
+}
+.right {
+    width: 15%;
+    display: block;
+}
+/* .center-top {
+    border-bottom: 20px solid #ca5d22  ;
+} */
+
+
+
+
