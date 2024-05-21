@@ -1,0 +1,29 @@
+.tin {
+    width: 360px;
+    height: 294px;
+    position: relative;
+}
+
+img{
+    width: 360px;
+    height: 294px;
+}
+
+a.tieude {
+    width: 340px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(168, 168, 168, 0.371);
+    color: #ffffff;
+    display: block;
+    /* tác 2 layout riêng */
+    position: absolute; 
+    bottom: 0px;
+    /* opacity: 0.5; */
+}
+
+a.tieude:hover{
+    color: rgb(101, 101, 233);
+}

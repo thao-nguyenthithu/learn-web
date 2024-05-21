@@ -1,0 +1,101 @@
+.main{
+    width: 690px;
+    height: 340px;
+    display: flex;
+}
+
+.top{
+    border-left: 8px solid rgb(2, 179, 255);
+    width: 690px;
+    height: 23px;
+    /* padding-bottom: 10px; */
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.top a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(2, 179, 255) ;
+    font-weight: bold;
+}
+
+.trai{
+    width: 340px ;
+    height: 310px ;
+    position: relative;
+}
+
+img.trai {
+    width: 340px;
+    height: 310px;
+}
+
+a.tieude-trai{
+    width: 320px;
+    padding: 5px 10px;
+    font-size: 18px;
+    background-color: rgba(79, 68, 68, 0.436);
+    color: aliceblue;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    text-decoration: none;
+
+}
+
+a.tieude-trai:hover{
+    color: rgb(23, 20, 220);
+}
+
+.phai{
+    width: 340px;
+    height: 320px;
+    padding: 0 10px;
+}
+
+.tin-phai{
+    display: flex;
+}
+
+.phai a{
+    padding-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: rgb(2, 6, 61);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.phai a:hover{
+    color: blue;
+}
+
+.tin-phai img{
+    width: 80px;
+    height: 64px;
+}
+
+.duoi{
+    display: flex;
+}
+
+.tinduoi{
+    width: 165px;
+    height: 180px;
+    padding: 5px 5px;
+}
+
+.tinduoi a{
+    text-decoration: none;
+    color: rgb(2, 6, 61);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+.tinduoi a:hover{
+    color: blue;
+}

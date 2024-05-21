@@ -21,9 +21,9 @@ body {
 }
 .center-top{
     display: flex;
-    border-left: 20px #ff8040;
+    border-left: 10px solid #ff8040;
 }
-.center-top h2{
+.center-top p{
     font-size: 20px;
     color: rgb(0, 0, 0);
     padding: 14px 20px;
@@ -42,6 +42,7 @@ body {
 .right {
     width: 15%;
     display: block;
+    border-left: 20px #ff8040;
 }
 /* .center-top {
     border-bottom: 20px solid #ca5d22  ;
