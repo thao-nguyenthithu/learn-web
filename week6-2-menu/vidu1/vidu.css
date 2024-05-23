@@ -1,0 +1,64 @@
+header{
+    background-color: rgb(21, 138, 142);
+    color: white ;
+    align-items: center;
+    display: flex;
+    padding: 0px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    width: 5%;
+}
+
+.menu{
+    width: 95%;
+    justify-content: space-between;
+}
+
+header ul.menu{
+    display: flex;
+    /* bỏ chấm tròn của li*/
+    list-style: none;
+    
+}
+
+header ul.menu>li{
+    padding: 10px 10px;
+    border-right: 1px solid white;
+    position: relative;
+}
+
+/* bỏ đi border-right cuối cùng */
+header ul.menu>li:last-child{
+    border: none;
+}
+
+ul.menu>li>ul.submenu{
+    background-color: rgba(85, 85, 85, 0.473);
+    position: absolute;
+    top: 54px;
+    width: 200px;
+    list-style: none;
+    /* display: none; */
+}
+
+/* Hiển thị submenu khi di chuột qua mục có submenu */
+.menu>li:hover .submenu>li {
+    display: block;
+}
+
+.submenu>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    display: none;
+}
+
+.submenu>li:hover{
+    background-color: blueviolet;
+}

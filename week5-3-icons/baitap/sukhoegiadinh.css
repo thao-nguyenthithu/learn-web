@@ -8,46 +8,110 @@ body {
     width: 5%;
     text-align: right; /* Căn chỉnh nội dung văn bản về bên phải */
     margin-top: 25px;
-    margin-right: 5px;
+    margin-right: 20px;
 }
 .left i {
     font-size: 16px; 
 }
 
-.center {
+.tin { 
+    width: 1080px;
+    height: 798px;
     display: flex;
-    width: 80%;
+}
+
+.center{
+    width: 740px;
+    height: 798px;
+}
+
+.center-top{
+    width: 740px;
+    display: flex;
+    padding: 10px 10px;
+}
+
+.center-top h2{
+    border-left: 10px solid rgb(252, 4, 4);
+    display: block;
+    padding-left: 10px;
+    position: relative;
+    color: coral;
+}
+
+.luachon{
+    display: flex;
 
 }
-.center-top{
-    display: flex;
-    border-left: 10px solid #ff8040;
-}
-.center-top p{
-    font-size: 20px;
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
-    
-}
-.center-top a {
-    font-size: 15px;
-    color: rgb(0, 0, 0);
-    padding: 14px 20px;
+
+.luachon a{
+    margin: 25px;
+    font-weight: bold;
+    color: rgb(90, 89, 89);
     text-decoration: none;
 }
-
-.xahoi {
-    font-size: 20px ;
+.center-bottom{
+    display: flex;
 }
-.right {
-    width: 15%;
-    display: block;
-    border-left: 20px #ff8040;
+.noidunggiua{
+    width: 355px;
+    height: 440px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
 }
-/* .center-top {
-    border-bottom: 20px solid #ca5d22  ;
-} */
+.noidunggiua img{
+    width: 355px;
+    height: 222px;
+}
+.thongtin h3, a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.right{
+    width: 300px;
+    height: 798px;
+}
 
+.noidungduoi{
+    width: 230px;
+    height: 276px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
 
+.duoi{
+    display: flex;
+}
+.noidungduoi img{
+    width: 230px;
+    height: 144px;
+}
+
+.rightnoidung{
+    width: 300px ;
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+}
+
+.rightnoidung img{
+    width: 90px;
+    height: 90px;
+    padding: 10px 0px;
+}
+
+.cannoidung{
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+.cannoidung p{
+    font-weight: bold;
+}
+
+a:hover{
+    color: red;
+}
 
 
