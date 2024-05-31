@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.product-card {
+    position: relative;
+    width: 300px;
+    padding: 65px;
+    background-color: white;
+    text-align: center;
+}
+
+.discount-badge {
+    position: absolute;
+    /* top: 10px; */
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 50px 44px;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.product-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product-info {
+    margin-top: 20px;
+}
+
+.product-name {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.discounted-price {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.original-price {
+    font-size: 1em;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.cta-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: darkorange;
+}

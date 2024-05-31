@@ -1,0 +1,185 @@
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header>img{
+    margin-left: 60px;
+}
+
+ul>li{
+    /* xoa cham tron */
+    list-style: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+ul{
+    display: flex;
+    padding-left: 60px;
+    margin-top: -5px;
+}
+
+.backgr-menu{
+    background-color: rgb(11, 11, 110);
+}
+
+article{
+    margin: 0px 65px;
+}
+
+.dau-nd1{
+    width: 420px;
+}
+.dau-nd1>div{
+    width: 420px;
+    height: 140px;
+    background-color: rgb(211, 255, 255);
+    display: flex;
+}
+
+.dau-nd1>div>img{
+    width: 50%;
+}
+
+.cuoi-nd1>div{
+    width: 133px;
+    margin: 10px 0px;
+}
+
+.dauphai-nd1{
+    height: 70px;
+    width: 215px;
+    background-color: rgb(210, 201, 201);
+    font-size: 10px;
+    position: relative;
+}
+
+.dauphai-nd1 button{
+    position: absolute;
+    right: 25px;
+    top: 12px;
+}
+
+.radio-buttons{
+    padding: 0px 20px 9px 20px;
+}
+
+.duoiphai-nd1{
+    width: 215px;
+    height: 305px;
+    background-color: rgb(187, 236, 255);
+    border-radius: 2%;
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+table{
+    font-size: 11px;
+}
+
+.tieudebang {
+    font-weight: bold ; 
+    padding: 5px 10px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.tieudebang i{
+    padding: 0px 5px;
+}
+.noidunbang{
+    border-bottom: 0.5px solid rebeccapurple;
+
+}
+.cottrai{
+    border-right: 0.1px solid rebeccapurple;
+    text-align: center;
+}
+
+.cotphai{
+    padding: 5px ;
+}
+
+.noidung2{
+    border: 1px solid green;
+    border-radius: 10px;
+    width: 645px ;
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.anhsale{
+    position: relative;
+    height: 133px;
+    width: 110px ;
+    text-align: center;
+}
+
+.giamgia{
+    position: absolute;
+    /* left: 10px; */
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 11px 6px;
+}
+
+/* .tieudemaygiat{
+    margin-top: -5px;
+} */
+
+.gia{
+    font-size: 12px;
+}
+
+.gia-goc{
+    color: rgb(255, 1, 1);
+    font-weight: bold;
+}
+
+.giasale{
+    /* gạch ngang */
+    text-decoration: line-through;
+}
+
+.buton-sale{
+    background-color: rgb(255, 106, 0);
+    color: white;
+    border-radius: 10px;
+    font-size: 8px;
+    padding: 3px 6px;
+    border: none;
+    font-weight: bold;
+}
+
+.noidung3{
+    display: flex;
+    margin:  20px 0px;
+}
+
+.noidungcuoi{  
+    padding: 2px 6px;    
+    border-bottom: 1px solid  rgb(206, 199, 199);
+}
+
+.nd3-1{
+    width: 210px;
+    height: 280px;
+    border: 1px solid rgb(211, 208, 208);
+    margin-right: 10px;
+    box-shadow: 10px 10px 5px rgba(168, 165, 165, 0.112); /* Bóng đổ đen với độ nhòe và kích thước trung bình */
+  
+}
+
+footer{
+    margin: 10px 0px;
+    background-color:rgb(11, 11, 110);
+    width: 100% ;
+    height: 38px;
+}
+
+

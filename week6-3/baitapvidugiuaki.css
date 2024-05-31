@@ -1,0 +1,128 @@
+/* header{
+    height: 80px;
+    
+} */
+
+.logo{
+    margin: 0px 116px;
+}
+
+.logo image{
+    height: 40px;
+}
+
+.formatmenu{
+    height: 40px;
+    background-color: rgb(6, 6, 118);
+
+}
+.menu{
+    display: flex;
+    margin: 0px 60px;
+    list-style: none;
+    
+}
+
+.menu>li{
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.top{
+    display: flex;
+    width: 1120px;
+    height: 600px;
+    margin: 0px 116px;
+}
+
+.tieude-chinh{
+    width: 730px;
+    height: 344px;
+    padding-right: 20px;
+}
+
+.top-form{
+    display: flex;
+    background-color: rgba(183, 246, 225, 0.411);
+}
+
+.top-form p{
+    width: 370px;
+    height: 233px;
+}
+
+.tieude-chinh-bottom{
+    width: 730px;
+    height: 344px;
+    display: flex;
+}
+
+.tieude-trai{
+    width: 300px;
+    height: 207px;
+
+}
+
+.search{ 
+    width: 300px;
+    height: 60px;
+    padding: 20px 40px;
+    background-color: rgba(181, 174, 174, 0.215);
+}
+
+.lich{
+    margin-top: 20px;
+    width: 380px;
+    height: 450px;
+    background-color: rgba(184, 212, 203, 0.274);
+}
+
+.timkiem{
+    background-color: darkgrey;
+    color: white;
+}
+
+.texttimkiem{
+    width: 200px;
+}
+
+.lich-top{
+    padding: 10px;
+}
+
+.lich-top i{
+    
+}
+
+.giua{
+    display: flex;
+    width: 1130px;
+    height: 220px;
+    margin: 0px 116px;
+    padding: 10px 0px;
+    background-color: aquamarine;
+}
+
+.duoi{
+    display: flex;
+    width: 1140px;
+    height: 250px;
+    margin: 10px 116px;
+}
+
+.tin-duoi{
+    width: 360px;
+    height: 250px;
+    padding: 0px 10px;
+}
+
+.tin-duoi img{
+    width: 355px;
+    height: 190px;
+}
