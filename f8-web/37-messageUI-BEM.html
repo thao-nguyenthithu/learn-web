@@ -1,0 +1,148 @@
+<!-- toast messages -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../fontawesome-free-6.5.2-web/css/all.css">
+    <link rel="stylesheet" href="37-messageUI-BEM.css">
+</head>
+<body>
+    <!-- <div id="toast"> -->
+        <!-- Success -->
+        <!-- <div class="toast toast--success">
+            <div class="toast__icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Sử dụng BEM tạo Toast Message UI</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div> -->
+        <!-- Infor -->
+        <!-- <div class="toast toast--infor">
+            <div class="toast__icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Sử dụng BEM tạo Toast Message UI</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div> -->
+        <!-- Warning -->
+        <!-- <div class="toast toast--warning">
+            <div class="toast__icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Sử dụng BEM tạo Toast Message UI</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div> -->
+        <!-- Error -->
+        <!-- <div class="toast toast--error">
+            <div class="toast__icon">
+                <i class="fa-solid fa-circle-check"></i>
+            </div>
+            <div class="toast__body">
+                <h3 class="toast__title">Success</h3>
+                <p class="toast__msg">Sử dụng BEM tạo Toast Message UI</p>
+            </div>
+            <div class="toast__close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div> -->
+    <!-- </div> -->
+    <!-- <div>
+        <div class="btn btn--success">Show Success</div>
+        <div class="btn btn--danger">Show Error</div>
+    </div> -->
+
+    <div id="toast"></div>
+
+    <div>
+    <div onclick="showSuccessToast();" class="btn btn--success">Show success toast</div>
+    <div onclick="showErrorToast();" class="btn btn--danger">Show error toast</div>
+    </div>
+
+    <script>
+    function showSuccessToast() {
+        toast({
+        title: "Thành công!",
+        message: "Bạn đã đăng ký thành công tài khoản tại F8.",
+        type: "success",
+        duration: 5000
+        });
+    }
+
+    function showErrorToast() {
+        toast({
+        title: "Thất bại!",
+        message: "Có lỗi xảy ra, vui lòng liên hệ quản trị viên.",
+        type: "error",
+        duration: 5000
+        });
+    }
+    </script>
+
+    <script>
+    // Toast function
+    function toast({ title = "", message = "", type = "info", duration = 3000 }) {
+    const main = document.getElementById("toast");
+    if (main) {
+        const toast = document.createElement("div");
+
+        // Auto remove toast
+        const autoRemoveId = setTimeout(function () {
+        main.removeChild(toast);
+        }, duration + 1000);
+
+        // Remove toast when clicked
+        toast.onclick = function (e) {
+        if (e.target.closest(".toast__close")) {
+            main.removeChild(toast);
+            clearTimeout(autoRemoveId);
+        }
+        };
+
+        const icons = {
+        success: "fas fa-check-circle",
+        info: "fas fa-info-circle",
+        warning: "fas fa-exclamation-circle",
+        error: "fas fa-exclamation-circle"
+        };
+        const icon = icons[type];
+        const delay = (duration / 1000).toFixed(2);
+
+        toast.classList.add("toast", `toast--${type}`);
+        toast.style.animation = `slideInLeft ease .3s, fadeOut linear 1s ${delay}s forwards`;
+
+        toast.innerHTML = `
+                        <div class="toast__icon">
+                            <i class="${icon}"></i>
+                        </div>
+                        <div class="toast__body">
+                            <h3 class="toast__title">${title}</h3>
+                            <p class="toast__msg">${message}</p>
+                        </div>
+                        <div class="toast__close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    `;
+        main.appendChild(toast);
+    }
+}
+    </script>
+</body>
+</html>
