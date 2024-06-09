@@ -1,0 +1,26 @@
+header .menu{
+    background-color: #A90D1A;
+    padding: 10px 100px;
+}
+
+header .menu>ul{
+    display: flex;
+}
+
+header .menu>ul>li>a{
+    color: white;
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 0px 30px;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+ul{
+    display: inline;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}

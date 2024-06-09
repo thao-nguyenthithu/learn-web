@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header.logo {
+    background-color: #ff0099;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    background-color: #ff0099;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+nav ul li a:hover {
+    background-color: #e60073;
+}
+main {
+    padding: 20px;
+}
+.news-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.news-grid article, .celebrity-news article, .social-news article {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.news-grid article img, .celebrity-news article img, .social-news article img {
+    width: 100%;
+    height: auto;
+}
+.news-grid article h3, .celebrity-news article h3, .social-news article h3 {
+    padding: 10px;
+    font-size: 16px;
+}
+.celebrity-news, .social-news {
+    margin-top: 40px;
+}
+.celebrity-news h2, .social-news h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.celebrity-news, .social-news {
+    background-color: #ff0099;
+    padding: 20px;
+    color: white;
+}
+footer {
+    background-color: #ff0099;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
